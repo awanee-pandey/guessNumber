@@ -25,7 +25,7 @@ function playGame(){
 
 /**
  * Show the result for if the guess it too high, too low, or correct
- * HINT: Use if, else if, else statement 
+
  */
 
 
@@ -42,7 +42,7 @@ function displayResult(numberGuess){
 
 /**
  * Initialize a new game by resetting all values and content on the page
- * HINT: reset the correctNumber, guesses, and HTML content
+
  */
 function initGame(){
  
@@ -67,7 +67,7 @@ function inputBox(){
 
 /**
  * Return a random number between 1 and 100
- * HINT: Use Math.random 
+
  */
 function getRandomNumber(){
   // *CODE GOES BELOW HERE *
@@ -77,8 +77,7 @@ function getRandomNumber(){
 
 /**
  * Save guess history 
- * HINT: Search Google "append to array in javascript"
- * HINT: Use the guesses variable
+
  */
 function saveGuessHistory(guess) {
   // *CODE GOES BELOW HERE *
@@ -94,7 +93,7 @@ function saveGuessHistory(guess) {
  * <ul class='list-group'>
  *  <li class='list-group-item'>You guessed {number}</li
  * </ul>
- * HINT: use while loop and string concatentation to create a list of guesses
+
  */
 function displayHistory() {
   let index=guesses.length -1; // TODO
@@ -134,7 +133,7 @@ function showYouWon(){
   /**
    * Retrieve the dialog using the getDialog() function
    * and save it to variable called dialog
-   * HINT: Use the 'won' and text parameters 
+
    */
  
     let dialog =getDialog('won',text)
@@ -146,7 +145,7 @@ function showNumberAbove(){
   /**
    * Retrieve the dialog using the getDialog() function
    * and save it to variable called dialog
-   * HINT: Use the 'warning' and text parameters 
+
    */
 
     let dialog =getDialog('warning',text)
@@ -158,7 +157,7 @@ function showNumberBelow(){
   /**
    * Retrieve the dialog using the getDialog() function
    * and save it to variable called dialog
-   * HINT: Use the 'warning' and text parameters 
+
    */
  
     let dialog =getDialog('warning',text)
